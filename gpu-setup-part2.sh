@@ -16,7 +16,7 @@ source ~/.bashrc
 
 sudo apt-get -y install cmake
 sudo apt-get -y install zlib1g-dev
-python3.6 -m pip install --upgrade -r requirements.txt
+python3.6 -m pip install --upgrade -r requirements_.txt
 
 cp -r /usr/src/cudnn_samples_v7/ .
 cd cudnn_samples_v7/mnistCUDNN
